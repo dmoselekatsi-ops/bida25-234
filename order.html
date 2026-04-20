@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Order | Fresh Fusion</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <a href="index.html" class="logo">Fresh<span>Fusion</span></a>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="about.html">About</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+
+    <main class="order-page">
+        <section class="order-intro">
+            <h1>Your Order</h1>
+            <p>Review your items and complete your purchase</p>
+        </section>
+
+        <section class="order-container">
+            <div class="order-left">
+                <!-- ORDER ITEMS SECTION -->
+                <article class="order-items-section">
+                    <h2>Order Items</h2>
+                    <div class="order-item">
+                        <h3>Green Detox</h3>
+                        <p>P50</p>
+                        <div class="quantity-control">
+                            <span>Qty: [ - 1 + ]</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <h3>Mango pineapple</h3>
+                        <p>P40</p>
+                        <div class="quantity-control">
+                            <span>Qty: [ - 1 + ]</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- CUSTOMER DETAILS SECTION -->
+                <article class="customer-details-section">
+                    <h2>Customer Details</h2>
+                    <form class="order-form">
+                        <div class="form-group">
+                            <label for="full-names">Full names</label>
+                            <input type="text" id="full-names" name="full-names" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone-number">Phone number</label>
+                            <input type="tel" id="phone-number" name="phone-number" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="delivery-address">Delivery address</label>
+                            <input type="text" id="delivery-address" name="delivery-address" placeholder="">
+                        </div>
+
+                        <fieldset class="form-group">
+                            <legend>Deliver method</legend>
+                            <label class="radio-label">
+                                <input type="radio" name="delivery-method" value="pickup" checked>
+                                Pick up
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="delivery-method" value="delivery">
+                                Delivery
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="form-group">
+                            <legend>Payment method</legend>
+                            <label class="radio-label">
+                                <input type="radio" name="payment-method" value="cash" checked>
+                                Cash
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="payment-method" value="card">
+                                Card
+                            </label>
+                        </fieldset>
+                    </form>
+                </article>
+            </div>
+
+            <!-- ORDER SUMMARY SECTION (RIGHT SIDE) -->
+            <aside class="order-summary-section">
+                <h2>Your Full Order</h2>
+                <div class="summary-item">
+                    <span>Green Detox</span>
+                    <span>P50[1]</span>
+                </div>
+                <div class="summary-item">
+                    <span>Mango pineapple</span>
+                    <span>P40[1]</span>
+                </div>
+                
+                <div class="summary-totals">
+                    <p>Subtotal:P90</p>
+                    <p>Delivery:P25</p>
+                    <p><strong>Total:P115</strong></p>
+                </div>
+
+                <button type="submit" class="order-button">Order Now</button>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-column contact-info">
+            <h3>Contact</h3>
+            <p>+267 73 376 710</p>
+            <p>Smoothie@freshfusion.com</p>
+        </div>
+        <div class="footer-column quick-links">
+            <h3>Quick Links</h3>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="feedback.html">Feedback</a>
+        </div>
+        <div class="footer-column social-links">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p class="copyright">© 2026 Fresh Fusion Smoothie | All rights reserved</p>
+    </footer>
+</body>
+</html>
